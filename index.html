@@ -71,9 +71,10 @@
 			</div>
 			<div class="col-xs-4 col-md-4">
 				<a href="#" class="thumbnail">
-					<img src="img/6.jpg" alt="...">
+				<img src="img/6.jpg" alt="...">
 				</a>
 			</div>
+
 		</div>
 	</div>
 	<div style="text-align:center;">
@@ -103,9 +104,9 @@ function date(){
  var left=spfst.getTime()-time.getTime();
  //获取两时间差,这个时间的差值是毫秒，所以下面需要将毫秒进行转化，转化成所需要的月、天、时、分、秒
  var a=Math.floor(left/(24*3600*1000));
- var b=addzero(Math.floor((left%(24*3600*1000))/(3600*1000)));
- var c=addzero(Math.floor(((left%(24*3600*1000))%(3600*1000))/(60*1000)));
- var x=addzero(Math.floor(((left%(24*3600*1000))%(3600*1000)%(60*1000))/1000));
+ var b=(Math.floor((left%(24*3600*1000))/(3600*1000)));
+ var c=(Math.floor(((left%(24*3600*1000))%(3600*1000))/(60*1000)));
+ var x=(Math.floor(((left%(24*3600*1000))%(3600*1000)%(60*1000))/1000));
  document.getElementById("nowtime").value=(a+"天"+b+"时"+c+"分"+x+"秒");
 }
 date()

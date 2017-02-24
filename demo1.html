@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo1</title>
+	<style type="text/css">
+		
+		body{
+			background-color:white;
+		}
+		#myelement{
+			position:absolute;
+			left:50px;
+			top:150px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="images/one.jpg" onclick="showPic(this); return false;" title="A one">One</a></li>
+		<li><a href="images/two.png" onclick="showPic(this); return false;" title="B two">Two</a></li>
+		<li><a href="images/three.jpg" onclick="showPic(this); return false;" title="C three">Three</a></li>
+		<li><a href="images/fore.jpg" onclick="showPic(this); return false;" title="D fore">Fore</a></li>
+		<li><a href="images/five.jpg" onclick="showPic(this); return false;" title="E five">Five</a></li>
+		<img id="placeholder" src="images/2222.png" alt="my image gallery" />
+	</ul>
+<script type="text/javascript" src="scripts/showPic.js"></script>
+</body>
+</html>

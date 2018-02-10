@@ -352,14 +352,13 @@ $(function(){
                         '</p>' +
                         '<img src="img/1518247503.png" width="220" height="220" class="qrcode" /> 扫码或微信长按二维码分享 <br>' +
                         '<div class="license">' +
-                            '' +
+                            '／后面还有哦／' +
                         '</div>' +
                     '</div>'
         }, {
             name:   'section5',
             text:   '<div class="sectionIn">'+
-                        
-                        
+                        '<h2><a href="#">彩蛋</a></h2>'+                
                     '</div>'
        }
     ];

@@ -1,0 +1,41 @@
+{
+  "name": "love",
+  "version": "1.0.0",
+  "description": "This project for my honey, in the valentine's day, Feb 14th, 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "edp": {
+    "wwwroot": "/",
+    "depDir": "dep",
+    "srcDir": "src",
+    "loaderAutoConfig": "js,htm,html,tpl,vm,phtml",
+    "loaderUrl": "http://s1.bdstatic.com/r/www/cache/ecom/esl/1-8-2/esl.js",
+    "dependencies": {}
+  },
+  "author": "SuperWoods",
+  "license": "MIT",
+  "readme": "README",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.2",
+    "ejs": "*",
+    "browser-sync": "^2.9.3",
+    "gsap": "^1.18.0",
+    "normalize.css": "^3.0.3",
+    "scrollmagic": "^2.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "postcss-cli": "^2.1.0",
+    "postcss-import": "^7.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-contrib-cssmin": "^0.14.0"
+  }
+}

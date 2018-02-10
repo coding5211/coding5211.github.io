@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<body>
+
+<script>
+var strTo = {
+    unicode: function (str) {
+        return escape(str).toLocaleLowerCase().replace(/%u/gi, '\\u');
+    },
+    GBK: function (str) {
+        return unescape(str.replace(/\\u/gi, '%u'));
+    }
+};
+
+
+var str = '上海', unicode;
+
+document.write(str + '<br/>');
+
+unicode = strTo.unicode(str);
+
+document.write('汉字转换为Unicode代码：' + unicode + '<br/><br/>');
+document.write('Unicode代码转换为汉字：' + strTo.GBK(unicode) + '<br/><br/>');
+
+document.write(location.hash + '<br/><br/>');
+
+
+var hashunicode = strTo.GBK(location.hash);
+
+document.write(hashunicode + '<br/><br/>');
+
+
+
+// // encodeURIComponent just only for URL :(
+// var test1 = location.hash; //"http://www.w3school.com.cn/Myfirst/"
+// document.write('encodeURIComponent: ' + encodeURIComponent(test1) + '<br/><br/>');
+// document.write('decodeURIComponent: ' + decodeURIComponent(test1) + '<br/><br/>');
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

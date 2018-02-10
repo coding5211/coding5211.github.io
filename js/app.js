@@ -350,7 +350,7 @@ $(function(){
                         '<p><span id="hashTo"></span><br>' +
                             '<span id="hashWish"></span><br>' +
                         '</p>' +
-                        '<img src="img/1518247503.png" width="220" height="220" class="qrcode" /> 扫码或微信长按二维码分享 <br>' +
+                        '<img src="img/1518255618.png" width="220" height="220" class="qrcode" /> 扫码或微信长按二维码分享 <br>' +
                         '<div class="license">' +
                             '／后面还有哦／' +
                         '</div>' +

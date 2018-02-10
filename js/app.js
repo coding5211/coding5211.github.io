@@ -392,7 +392,7 @@ $(function(){
 
 
     // 替换title标签文字
-    $('title').append($('#hashTo').text() + '--来自' + $('#hashFrom').text());
+    $('title').append($('#hashTo').text() + '' + $('#hashFrom').text());
 
 
 

@@ -1,32 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>登陆</title>
-    <link rel="stylesheet" href="css/main.css">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>于晓杰</title>
+<!--<meta name="description" content="于晓杰">-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="img/hvd.svg">
+<link rel="stylesheet" href="bundle/app.css">
 </head>
-<body class="sign-body"> 
-    <header><p class="hb">青&nbsp;岛&nbsp;市&nbsp;国&nbsp;土&nbsp;资&nbsp;源&nbsp;和&nbsp;房&nbsp;屋&nbsp;管&nbsp;理&nbsp;局&nbsp;政&nbsp;策&nbsp;法&nbsp;规&nbsp;系&nbsp;统</p></header>&nbsp;
-    <div class="signBox">
-        <div class="right">
-        <form action="" method="POST">
-            <div class="btn">
-            <label for="">用户名：</label>
-            <input id="username" type="text" placeholder="请输入用户名" name="user">
-            </div>
-            <div class="btn">
-            <label for="">密&nbsp;&nbsp;&nbsp;码：</label>
-            <input id="password" type="password" placeholder="请输入密码" name="password">
-            </div>
-            <div class="btn">
-            <input class="sum" type="submit" value="登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录" onclick="return getA();">
-            </div>
-        </form>
-        </div>
+<body>
+<div class="wechat">
+    <img src="img/wechat.jpg" width="300" height="300" alt="" />
+</div>
+<div class="section section1" id="section1">
+    <div class="section overlay">
+        <img class="hvd" src="img/hvd.svg" width="85%" alt="" id="hvd"/>
+        <p class="bigTile" id="title"></p>
     </div>
-    <footer><p class="fb">版权所有  ©  北京数慧时空信息技术有限公司</p></footer>
-<script src="js/login.js"></script>
+</div>
+<div class="section flexRow" id="section2">
+    <img class="gif" src="img/valentines-day-2016.gif" id="ani1" /><br>
+    
+</div>
+
+<div class="section section5" id="section5">
+</div>
+<div class="section section6" id="section6">
+    <p>11111</p>
+</div>
+
+<div class="slider-control" id="slider-control">
+    <a href="#section1">
+    <div class="dot"></div>
+    </a>
+    <a href="#section2">
+    <div class="dot"></div>
+    </a>
+    <a href="#section5">
+    <div class="dot"></div>
+    </a>
+</div>
+<script src="js/jq.js"></script>
+<script src="js/jquery.jplayer.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

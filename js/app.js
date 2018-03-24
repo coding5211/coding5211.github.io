@@ -404,7 +404,7 @@ $(function(){
     $("#jquery_jplayer_1").jPlayer({
         ready: function (event) {
             $(this).jPlayer("setMedia", {
-                mp3: 'media/Shayne-Ward-Until-You.mp3'
+                mp3: 'media/Mystery.mp3'
             });
             // 设置自动播放，iOS safari 受安全限制无效，wechat可以自动播放
             $(this).jPlayer("play").jPlayer("repeat");

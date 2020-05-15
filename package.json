@@ -21,7 +21,7 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.2.2",
+    "express": "4.17.1",
     "ejs": "*",
     "browser-sync": "^2.9.3",
     "gsap": "^1.18.0",
